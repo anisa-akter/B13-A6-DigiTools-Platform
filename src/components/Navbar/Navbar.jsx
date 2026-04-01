@@ -60,11 +60,29 @@ const Navbar = ({ cartCount, onCartOpen }) => {
           <button
             type="button"
             onClick={onCartOpen}
-            className="btn btn-ghost btn-sm relative rounded-full border border-slate-200 px-3 text-slate-700 hover:border-indigo-300"
+            className="relative flex h-10 w-10 items-center justify-center rounded-full text-slate-700 transition hover:bg-slate-100"
+            aria-label="Open cart"
           >
-            <span aria-hidden="true">🛒</span>
-            <span className="hidden sm:inline">Cart</span>
-            <span className="badge badge-sm border-0 bg-indigo-600 text-white">{cartCount}</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              className="h-6 w-6"
+              aria-hidden="true"
+            >
+              <path
+                d="M3 3h2l.4 2m0 0L7 13h10l2-8H5.4zM9 19a1 1 0 100 2 1 1 0 000-2zm7 0a1 1 0 100 2 1 1 0 000-2z"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+            {cartCount > 0 && (
+              <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-rose-500 px-1 text-[10px] font-bold text-white">
+                {cartCount}
+              </span>
+            )}
           </button>
           <button type="button" className="btn btn-ghost btn-sm hidden text-slate-700 sm:inline-flex">
             Login
