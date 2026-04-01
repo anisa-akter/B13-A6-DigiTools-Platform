@@ -1,11 +1,10 @@
 import "./App.css";
+import React from 'react'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <button className="btn btn-neutral">Neutral</button>
-    </>
-  );
+    <div>App</div>
+  )
 }
 
-export default App;
+export default App
