@@ -8,7 +8,7 @@ const Banner = () => {
 			<div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-4 pb-16 pt-8 md:px-6 md:pb-20 lg:grid-cols-2 lg:gap-20">
 				<div className="space-y-6 text-center lg:text-left">
 					<p className="mx-auto inline-flex rounded-full border border-indigo-100 bg-indigo-50 px-4 py-1 text-xs font-bold uppercase tracking-wide text-indigo-600 lg:mx-0">
-						<img src={circle} alt="Circle icon" />New AI-powered tools available
+						<img src={circle} alt="Circle icon" />&nbsp; New AI-powered tools available
 					</p>
 					<h2 className="text-4xl font-black leading-tight text-slate-900 md:text-5xl">
 						Supercharge Your
@@ -18,7 +18,7 @@ const Banner = () => {
 						</span>
 					</h2>
 					<p className="mx-auto max-w-xl text-base text-slate-500 lg:mx-0">
-						Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.Explore Products
+						Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.<br></br> Explore Products
 					</p>
 					<div className="flex flex-wrap justify-center gap-3 lg:justify-start">
 						<button
