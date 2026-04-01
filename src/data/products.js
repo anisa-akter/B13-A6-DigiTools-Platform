@@ -82,6 +82,42 @@ const products = [
     features: ["5000+ assets", "Post scheduler", "Analytics dashboard"],
     icon: socialIcon,
   },
+  {
+    id: 7,
+    name: "Podcast Production Suite",
+    description:
+      "Record, edit, and publish podcasts with studio-quality presets and export tools.",
+    price: 59,
+    period: "monthly",
+    tag: "Popular",
+    tagType: "popular",
+    features: ["Noise cleanup", "Auto mastering", "One-click publishing"],
+    icon: automationIcon,
+  },
+  {
+    id: 8,
+    name: "Brand Kit Generator",
+    description:
+      "Generate logos, palettes, and typography systems for new products and campaigns.",
+    price: 25,
+    period: "one-time",
+    tag: "New",
+    tagType: "new",
+    features: ["Logo variations", "Color presets", "Export brand guide"],
+    icon: designIcon,
+  },
+  {
+    id: 9,
+    name: "Client Proposal Vault",
+    description:
+      "Create winning proposals with conversion-focused layouts and reusable templates.",
+    price: 35,
+    period: "monthly",
+    tag: "Best Seller",
+    tagType: "best-seller",
+    features: ["25+ proposal templates", "E-sign support", "Track client views"],
+    icon: writingIcon,
+  },
 ];
 
 export default products;
