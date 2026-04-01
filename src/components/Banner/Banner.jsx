@@ -11,7 +11,9 @@ const Banner = () => {
 					<h2 className="text-4xl font-black leading-tight text-slate-900 md:text-5xl">
 						Supercharge Your
 						<br />
-						Digital Workflow
+						<span className="bg-linear-to-r from-indigo-600 to-fuchsia-600 bg-clip-text text-transparent">
+							Digital Workflow
+						</span>
 					</h2>
 					<p className="mx-auto max-w-xl text-base text-slate-500 lg:mx-0">
 						Access premium AI tools, design assets, templates, and productivity
