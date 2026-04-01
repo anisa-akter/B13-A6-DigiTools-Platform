@@ -95,7 +95,7 @@ const App = () => {
       <section className="bg-linear-to-r from-indigo-700 via-violet-600 to-fuchsia-600 py-20 text-center text-white">
         <div className="mx-auto w-full max-w-3xl px-4 md:px-6">
           <h2 className="text-4xl font-black">Ready To Transform Your Workflow?</h2>
-          <p className="mt-4 text-violet-100">Join thousands of professionals using DigiTools to work smarter every day.</p>
+          <p className="mt-4 text-violet-100">Join thousands of professionals who are already using Digitools to work smarter.<br/> Start your free trial today.</p>
           <div className="mt-7 flex flex-wrap justify-center gap-3">
             <button type="button" className="btn rounded-full border-0 bg-white text-indigo-700">
               Explore Products
@@ -104,6 +104,7 @@ const App = () => {
               View Pricing
             </button>
           </div>
+          <p className="mt-4 text-violet-100">14-day free trial • No credit card required • Cancel anytime</p>
         </div>
       </section>
 
