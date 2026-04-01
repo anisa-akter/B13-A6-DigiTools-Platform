@@ -10,8 +10,7 @@ const Footer = () => {
 					<div className="lg:col-span-2">
 						<h3 className="text-4xl font-black text-white">DigiTools</h3>
 						<p className="mt-4 max-w-sm text-sm leading-relaxed text-slate-400">
-							Premium digital tools for creators, entrepreneurs, and businesses.
-							Work smarter, create faster, and grow with confidence.
+							Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.
 						</p>
 					</div>
 
@@ -52,30 +51,30 @@ const Footer = () => {
 								href="https://instagram.com"
 								target="_blank"
 								rel="noreferrer"
-								className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 transition hover:bg-slate-700"
+								className="flex h-9 w-9 items-center justify-center rounded-full bg-white transition hover:bg-slate-700"
 								aria-label="Instagram"
 							>
-								<img src={instagramIcon} alt="Instagram" className="h-4 w-4 object-contain" />
+								<img src={instagramIcon} alt="Instagram" className="h-8 w-8 object-contain" />
 							</a>
 
 							<a
 								href="https://facebook.com"
 								target="_blank"
 								rel="noreferrer"
-								className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 transition hover:bg-slate-700"
+								className="flex h-9 w-9 items-center justify-center rounded-full bg-white transition hover:bg-slate-700"
 								aria-label="Facebook"
 							>
-								<img src={facebookIcon} alt="Facebook" className="h-4 w-4 object-contain" />
+								<img src={facebookIcon} alt="Facebook" className="h-8 w-8 object-contain" />
 							</a>
 							
 							<a
 								href="https://twitter.com"
 								target="_blank"
 								rel="noreferrer"
-								className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 transition hover:bg-slate-700"
+								className="flex h-9 w-9 items-center justify-center rounded-full bg-white transition hover:bg-slate-700"
 								aria-label="Twitter"
 							>
-								<img src={twitterIcon} alt="Twitter" className="h-4 w-4 object-contain" />
+								<img src={twitterIcon} alt="Twitter" className="h-8 w-8 object-contain" />
 							</a>
 						</div>
 					</div>
