@@ -1,8 +1,12 @@
+import facebookIcon from "../../assets/Facebook.png";
+import instagramIcon from "../../assets/Instagram.png";
+import twitterIcon from "../../assets/Twitter.png";
+
 const Footer = () => {
 	return (
 		<footer className="bg-slate-950 text-slate-300">
 			<div className="mx-auto w-full max-w-6xl px-4 py-14 md:px-6">
-				<div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
+				<div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-6">
 					<div className="lg:col-span-2">
 						<h3 className="text-4xl font-black text-white">DigiTools</h3>
 						<p className="mt-4 max-w-sm text-sm leading-relaxed text-slate-400">
@@ -31,12 +35,48 @@ const Footer = () => {
 						</ul>
 					</div>
 
+						<div>
+						<h4 className="text-sm font-bold uppercase tracking-wide text-white">Resources</h4>
+						<ul className="mt-4 space-y-2 text-sm">
+							<li>Documentation</li>
+							<li>Help Center</li>
+							<li>Community</li>
+							<li>Contact</li>
+						</ul>
+					</div>
+
 					<div>
-						<h4 className="text-sm font-bold uppercase tracking-wide text-white">Social</h4>
-						<div className="mt-4 flex gap-2">
-							<button type="button" className="btn btn-circle btn-sm border-0 bg-slate-800 text-white">f</button>
-							<button type="button" className="btn btn-circle btn-sm border-0 bg-slate-800 text-white">in</button>
-							<button type="button" className="btn btn-circle btn-sm border-0 bg-slate-800 text-white">x</button>
+						<h4 className="text-sm font-bold uppercase tracking-wide text-white">Social Links</h4>
+						<div className="mt-4 flex gap-3">
+							<a
+								href="https://instagram.com"
+								target="_blank"
+								rel="noreferrer"
+								className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 transition hover:bg-slate-700"
+								aria-label="Instagram"
+							>
+								<img src={instagramIcon} alt="Instagram" className="h-4 w-4 object-contain" />
+							</a>
+
+							<a
+								href="https://facebook.com"
+								target="_blank"
+								rel="noreferrer"
+								className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 transition hover:bg-slate-700"
+								aria-label="Facebook"
+							>
+								<img src={facebookIcon} alt="Facebook" className="h-4 w-4 object-contain" />
+							</a>
+							
+							<a
+								href="https://twitter.com"
+								target="_blank"
+								rel="noreferrer"
+								className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 transition hover:bg-slate-700"
+								aria-label="Twitter"
+							>
+								<img src={twitterIcon} alt="Twitter" className="h-4 w-4 object-contain" />
+							</a>
 						</div>
 					</div>
 				</div>
