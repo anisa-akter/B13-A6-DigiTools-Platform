@@ -1,4 +1,6 @@
 import bannerImage from "../../assets/banner.png";
+import circle from "../../assets/circle.png";
+import Play from "../../assets/Play.png";
 
 const Banner = () => {
 	return (
@@ -6,7 +8,7 @@ const Banner = () => {
 			<div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-4 pb-16 pt-8 md:px-6 md:pb-20 lg:grid-cols-2 lg:gap-20">
 				<div className="space-y-6 text-center lg:text-left">
 					<p className="mx-auto inline-flex rounded-full border border-indigo-100 bg-indigo-50 px-4 py-1 text-xs font-bold uppercase tracking-wide text-indigo-600 lg:mx-0">
-						New AI-powered tools available
+						<img src={circle} alt="Circle icon" />New AI-powered tools available
 					</p>
 					<h2 className="text-4xl font-black leading-tight text-slate-900 md:text-5xl">
 						Supercharge Your
@@ -16,8 +18,7 @@ const Banner = () => {
 						</span>
 					</h2>
 					<p className="mx-auto max-w-xl text-base text-slate-500 lg:mx-0">
-						Access premium AI tools, design assets, templates, and productivity
-						software all in one place. Start creating faster today.
+						Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.Explore Products
 					</p>
 					<div className="flex flex-wrap justify-center gap-3 lg:justify-start">
 						<button
@@ -30,7 +31,7 @@ const Banner = () => {
 							type="button"
 							className="btn rounded-full border border-indigo-200 bg-white px-7 text-indigo-600"
 						>
-							Watch Demo
+							<img src={Play} alt="Play icon" className="h-4 w-4" /> Watch Demo
 						</button>
 					</div>
 				</div>
